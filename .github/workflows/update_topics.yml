@@ -18,7 +18,7 @@ jobs:
 
       - name: Update topics for all public repos
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT1 }}
           GITHUB_USER: Dippp10  # <-- replace with your GitHub username
         run: |
           # Define topics
