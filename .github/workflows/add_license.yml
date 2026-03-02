@@ -20,7 +20,7 @@ jobs:
 
       - name: Add MIT License
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT1 }}
           GITHUB_USER: ${{ github.event.inputs.github_username || github.repository_owner }}
         run: |
           YEAR=$(date +%Y)
